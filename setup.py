@@ -9,7 +9,7 @@ if sys.platform == 'win32':
 os.environ['TCL_LIBRARY'] = r"C:\Users\Admin\AppData\Local\Programs\Python\Python37\tcl\tcl8.6"
 os.environ['TK_LIBRARY'] = r"C:\Users\Admin\AppData\Local\Programs\Python\Python37\tcl\tk8.6"
 
-executables = [cx_Freeze.Executable("vpad.py", base=base, icon="icon.ico")]
+executables = [cx_Freeze.Executable("D:\python_code\text_editor\text_editor_1.py", base=base, icon="icon.ico")]
 
 
 cx_Freeze.setup(
